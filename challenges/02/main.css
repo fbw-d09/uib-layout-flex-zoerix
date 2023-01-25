@@ -1,5 +1,12 @@
 /* Use flexbox to align the divs in a row. Reverse the order of the divs. */
 
+section {
+    display: flex;
+    border: 5px solid red;
+    flex-direction: row-reverse;
+    
+}
+
 
 div {
     height: 100px;
@@ -8,4 +15,5 @@ div {
     margin: 1em;
     border: 2px solid red;
     text-align: center;
+    justify-content: center;
 }
