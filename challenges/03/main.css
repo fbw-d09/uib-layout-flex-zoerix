@@ -13,7 +13,7 @@ body {
 section {
   display: flex;
   border: 5px solid yellow;
-  flex-direction: column;
+  flex-direction: column-reverse;
 }
 
 
